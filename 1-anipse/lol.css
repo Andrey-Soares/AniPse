@@ -1,0 +1,53 @@
+h1 {
+	font-family: Comic sans MS;
+	text-align: center;
+	
+}
+h2{ font-family: verdana;
+}
+
+
+body { 
+	background-image:  url("fundo.jpg") ;
+	} 
+	
+	
+
+#botão{
+	color:white
+	padding-top: 15px;
+	padding-bottom: 15px; 
+	padding-right: 35px;
+	padding-left: 35px;
+	
+}
+
+
+.bg_video{
+	position: fixed; 
+	right: 9; 
+	bottom: 0;
+	min-width: 50%; 
+	min-height: 100%;
+	width: 720 ; 
+	height: 480; 
+	z-index: -1000;
+	
+}
+
+ol {
+	counter-reset: section;     
+	list-style-type: none;
+}
+
+li::before {
+  counter-increment: section; 
+  content: counters(section,".") " ";
+  color: black;
+}
+
+ a  {
+	text-decoration: none;
+	font-weight: bold;	
+	padding: 5px;
+}
